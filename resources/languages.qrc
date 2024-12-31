@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>languages/ECCrypt_de_DE.ts</file>
+        <file>languages/ECCrypt_en_US.ts</file>
+        <file>languages/ECCrypt_tr_TR.ts</file>
+        <file>languages/ECCrypt_zh_CN.ts</file>
+        <file>languages/ECCrypt_de_DE.qm</file>
+        <file>languages/ECCrypt_en_US.qm</file>
+        <file>languages/ECCrypt_tr_TR.qm</file>
+        <file>languages/ECCrypt_zh_CN.qm</file>
+    </qresource>
+</RCC>
