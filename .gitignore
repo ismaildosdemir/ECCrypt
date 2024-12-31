@@ -1,73 +1,87 @@
-# This file is used to ignore files which are generated
-# ----------------------------------------------------------------------------
-
+# General temporary and backup files
 *~
 *.autosave
-*.a
-*.core
-*.moc
-*.o
-*.obj
 *.orig
 *.rej
-*.so
-*.so.*
-*_pch.h.cpp
-*_resource.rc
-*.qm
 .#*
 *.*#
-core
-!core/
-tags
+*.debug
 .DS_Store
 .directory
-*.debug
-Makefile*
-*.prl
-*.app
-moc_*.cpp
-ui_*.h
-qrc_*.cpp
 Thumbs.db
-*.res
-*.rc
-/.qmake.cache
-/.qmake.stash
 
-# qtcreator generated files
+# Core dumps
+*.core
+core
+!core/
+
+# Build artifacts
+*.a
+*.o
+*.obj
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.la
+*.lai
+*.slo
+*.lo
+
+# Editor and IDE specific files
 *.pro.user*
 CMakeLists.txt.user*
-
-# xemacs temporary files
-*.flc
-
-# Vim temporary files
-.*.swp
-
-# Visual Studio generated files
-*.ib_pdb_index
-*.idb
-*.ilk
-*.pdb
+*.qmlproject.user*
+*.qmlproject.user.*
+*creator.user*
 *.sln
 *.suo
 *.vcproj
-*vcproj.*.*.user
+*.vcproj.*.*.user
 *.ncb
 *.sdf
 *.opensdf
 *.vcxproj
 *vcxproj.*
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
 
-# MinGW generated files
+# Qt generated files
+*.moc
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qmlc
+*.jsc
+*.prl
+*.qm
+Makefile*
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+
+# Unit test wrappers
+target_wrapper.*
+
+# Python bytecode
+*.pyc
+
+# Version control specific
+tags
+
+# Platform specific
+*.flc
+
+# MinGW specific
 *.Debug
 *.Release
 
-# Python byte code
-*.pyc
-
-# Binaries
-# --------
-*.dll
-*.exe
+# Temporary files
+compile_commands.json
+*build-*
